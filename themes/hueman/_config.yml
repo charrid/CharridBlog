@@ -3,8 +3,8 @@
 menu:
     home: /
     # Delete this row if you don't want categories in your header nav bar
-    Categories:
-    About: /about/index.html
+    Categories: /
+    About: /
 
 # Customize
 customize:
