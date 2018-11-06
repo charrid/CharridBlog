@@ -2,17 +2,19 @@
 # Menus
 menu:
     home: /
+    archives: /archives/
+    tags: /tags/
     # Delete this row if you don't want categories in your header nav bar
-    Categories: /
-    About: /
+    categories: /categories/
+    about: /about/
 
 # Customize
 customize:
     logo:
         width: 165
-        height: 60
+        height: 80
         url: images/logo-header.png
-    theme_color: '#d35'
+    theme_color: '#6cc'
     highlight: tomorrow
     sidebar: left # sidebar position, options: left, right
     thumbnail: true # enable posts thumbnail, options: true, false
@@ -21,15 +23,16 @@ customize:
         twitter: /
         facebook: /
         google-plus: /
-        github: https://github.com/ppoffice/hexo-theme-hueman
+        github: /
         weibo: /
         rss: /
 
 # Widgets
 widgets:
     - recent_posts
-    - category
     - archive
+    - category
+    - home
     - tag
     - tagcloud
     - links
