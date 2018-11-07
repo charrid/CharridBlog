@@ -2,13 +2,18 @@
     <div id="header-outer" class="outer">
         <div class="container">
             <div class="container-inner">
-                <div id="header-title">
+                <div id="header-inner">
                     <h1 class="logo-wrap">
                         <a href="<%- url_for() %>" class="logo"></a>
                     </h1>
+                </div>
+                <div id="header-inner">
                     <% if (theme.subtitle) { %>
                         <h2 class="subtitle-wrap">
-                            <p class="subtitle"><%= theme.subtitle %></p>
+                            <p class="subtitle">
+                            <%var subtitles=theme.subtitle.split("w")%>
+                            <%=subtitles[Math.floor(subtitles.length*Math.random())]%>
+                            </p>
                         </h2>
                     <% } %>
                 </div>

@@ -4,7 +4,6 @@ menu:
     home: /
     archives: /archives/
     tags: /tags/
-    # Delete this row if you don't want categories in your header nav bar
     categories: /categories/
     about: /about/
 
@@ -18,21 +17,18 @@ customize:
     highlight: tomorrow
     sidebar: left # sidebar position, options: left, right
     thumbnail: true # enable posts thumbnail, options: true, false
-    favicon: # path to favicon
+    favicon:  css/images/favicon.jpg # path to favicon
     social_links: # for more icons, please see http://fontawesome.io/icons/#brand
-        twitter: /
-        facebook: /
-        google-plus: /
-        github: /
+        github: https://github.com/charrid
+        wechat: /
         weibo: /
-        rss: /
+        qq: /
 
 # Widgets
 widgets:
     - recent_posts
     - archive
     - category
-    - home
     - tag
     - tagcloud
     - links
@@ -44,13 +40,14 @@ search:
     baidu: false # you need to disable other search engines to use Baidu search, options: true, false
 
 # Comment
+# 这个配置基本上用不到了，在内部代码中硬编码加了livere的评论
 comment:
     disqus: hexo-theme-hueman # enter disqus shortname here
     duoshuo: # enter duoshuo shortname here
     youyan: # enter youyan uid here
 
 # Share
-share: default # options: jiathis, bdshare, addtoany, default
+share: bdshare # options: jiathis, bdshare, addtoany, default
 
 # Plugins
 plugins:
@@ -66,4 +63,4 @@ miscellaneous:
         twitter_id:
         google_plus:
     links:
-        Hexo: http://hexo.io
+        GitHub: http://github.com/charrid
