@@ -11,8 +11,7 @@
                             <p class="subtitle">
                                 <%var subtitles=theme.subtitle.split("w")%>
                                 <%var randomNum=Math.floor(subtitles.length*Math.random())%>
-                                <%=randomNum%>
-                                <%=subtitles[randomNum]%>
+                                <%-subtitles[randomNum]%>
                             </p>
                         </h2>
                     <% } %>
