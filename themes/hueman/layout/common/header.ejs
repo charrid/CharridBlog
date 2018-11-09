@@ -10,8 +10,7 @@
                         <h2 class="subtitle-wrap">
                             <p class="subtitle">
                                 <%var subtitles=theme.subtitle.split("w")%>
-                                <%var randomNum=Math.floor(subtitles.length*Math.random())%>
-                                <%-subtitles[randomNum]%>
+                                <%-subtitles[Math.floor(subtitles.length*Math.random())]%>
                             </p>
                         </h2>
                     <% } %>
